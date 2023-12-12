@@ -1,64 +1,46 @@
-<html>
-    <head>
-        <meta name ="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Pagani Website</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="header" id="header">
-            <nav>
-                <img src="images2/porschelogo2.png" class="logo">
-                <ul>
-                    <li><a href="#" id="Huayra">911 GT3 RS</a></li>
-                    <li><a href="#" id="Zonda">911 GT2</a></li>
-                    <li><a href="#" id="HSpecs">911 Carrera</a></li>
-                    <li><a href="#" id="ZSpecs">911 Turbo</a></li>
-                    <li><a href="home.html">Home</a></li>
-                </ul>
-                <a href="#" class="btn">Sign up</a>
-            </nav>
-            <div class="info">
-                <div>
-                    <h2>6.6s</h2>
-                    <p>0-100mph</p>
-                </div>
-                <div>
-                    <h2>184mph</h2>
-                    <p>Top Speed</p>
-                </div>
-                <div>
-                    <h2>518hp</h2>
-                    <p>Horse Power</p>
-                </div>
-                <div class="line"></div>
-                <div>
-                    <h2>911 GT3 RS</h2>
-                </div>
-            </div>
-        </div>
-        <script>
-            var header = document.getElementById("header");
-            var h = document.getElementById("Huayra");
-            var z = document.getElementById("Zonda");
-            var h2 = document.getElementById("HSpecs");
-            var z2 = document.getElementById("ZSpecs");
+<!DOCTYPE html>
+<html lang="en">
 
 
-            h.onclick = function(){
-                header.style.backgroundImage = "url(images2/911-gt3-rs-desktop.jpg)";
-            }
-            z.onclick = function(){
-                header.style.backgroundImage = "url(images2/porgt2.jpeg)";
-            }
-            h2.onclick = function(){
-                header.style.backgroundImage = "url(images2/porschecarrera.webp)";
-            }
-            z2.onclick = function(){
-                header.style.backgroundImage = "url(images2/porturbo2.webp)";
-            }
-        </script>
-    </body>
-    <footer>
-        <p>&copy; CS1101 Final Project Jorge & Esdras. All rights reserved.</p>
-    </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Porsche</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+
+<body>
+    <header>
+        <img src="images2/porschelogo2.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="crafts.html">Our Crafts</a></li>
+                <li><a href="records.html">Records</a></li>
+            </ul>
+        </nav>
+        <p>Welcome to the world of Porsche, where luxury meets performance.</p>
+    </header>
+    <video width="660" height="380" autoplay muted>
+        <source src="images2/homevid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>
+        Porsche AG is a German automobile manufacturer specializing in high-performance sports cars, SUVs, and sedans. With a rich heritage dating back to 1931, Porsche has been synonymous with precision engineering, iconic design, and unrivaled driving experiences.
+    </p>
+   
+    <p>
+        At Porsche, innovation and technology converge to deliver automotive masterpieces that cater to the desires of discerning individuals worldwide. The relentless pursuit of perfection ensures that every Porsche vehicle delivers an unforgettable driving experience, blending luxury, comfort, and adrenaline-pumping performance.
+    </p>
+    <img src="images2/model1.png" alt="Porsche Model 2">
+    <p>
+        Join us in exploring the world of Porsche, where craftsmanship meets innovation, and passion drives the extraordinary.
+    </p>
+</body>
+<footer>
+    <p>&copy; CS1101 Final Project Jorge & Esdras. All rights reserved.</p>
+</footer>
+
+
 </html>
